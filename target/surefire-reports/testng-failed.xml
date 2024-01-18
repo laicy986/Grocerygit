@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.obsqura.Listeners.ReportListener"/>
+  </listeners>
+  <test thread-count="4" parallel="tests" name="ManageExpense(failed)" verbose="0">
+    <classes>
+      <class name="com.obsqura.test.ManageExpenseTest">
+        <methods>
+          <include name="ExpenseCategory"/>
+          <include name="tearDown"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- com.obsqura.test.ManageExpenseTest -->
+    </classes>
+  </test> <!-- ManageExpense(failed) -->
+</suite> <!-- Failed suite [Suite] -->

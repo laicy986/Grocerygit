@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="4">
+<listeners>
+		<listener class-name="com.obsqura.Listeners.ReportListener"></listener>
+	</listeners>
+
+  <test  name="DeliveryBoy">
+    <classes>
+      <class name="com.obsqura.test.CreateDeliveryBoy"/>
+    </classes>
+  </test> 
+
+    <test  name="LoginTest">
+    <classes>
+      <class name="com.obsqura.test.LoginTest"/>
+    </classes>
+  </test> 
+
+
+    <test  name="DeliverBoyDP">
+    <classes>
+      <class name="com.obsqura.test.CreateDeliveryBoyUsingDataProviders"/>
+    </classes>
+  </test> 
+  
+    <test  name="ManageExpense">
+    <classes>
+      <class name="com.obsqura.test.ManageExpenseTest"/>
+    </classes>
+  </test> 
+  
+  
+  
+   <test  name="ManageExpenseTest">
+    <classes>
+      <class name="com.obsqura.test.LoginTest"/>
+    </classes>
+  </test> 
+  
+   <test  name="ManageLocationDeleteTest">
+    <classes>
+      <class name="com.obsqura.test.LoginTest"/>
+    </classes>
+  </test> 
+  
+   <test  name="ManageLocationTest">
+    <classes>
+      <class name="com.obsqura.test.LoginTest"/>
+    </classes>
+  </test> 
+  
+  <test  name="ManageNewsTest">
+    <classes>
+      <class name="com.obsqura.test.LoginTest"/>
+    </classes>
+  </test> 
+  
+  <test  name="MobileSliderTest">
+    <classes>
+      <class name="com.obsqura.test.LoginTest"/>
+    </classes>
+  </test> 
+  
+  <test  name="SearchOrderIdTest">
+    <classes>
+      <class name="com.obsqura.test.LoginTest"/>
+    </classes>
+  </test> 
+  
+  <test  name="AdminTest">
+    <classes>
+      <class name="com.obsqura.test.AdminTest"/>
+    </classes>
+  </test> 
+</suite> 
